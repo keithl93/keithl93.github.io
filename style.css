@@ -1,0 +1,9 @@
+body {
+  background: red;
+}
+
+@media (min-width: 500px) {
+  h1 {
+    font-size: 300px;
+  }
+}
