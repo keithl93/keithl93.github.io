@@ -2,29 +2,28 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
+  background-image: url('L1000974.jpg');
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Rubik Iso', cursive;
+  font-size: 36px;
 }
 
 header {
-  background: #333;
   color: #ffffff;
   padding: 10px 0;
   text-align: center;
 }
 
-header h1 {
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
   margin: 0;
-}
-
-header img {
-  height: 200px;  
-  width: auto;
-  display: block; 
-  margin: 10px auto;
-}
-
-img {
-  border-radius: 20px;
 }
 
 nav {
@@ -39,7 +38,7 @@ nav ul {
 
 nav ul li {
   display: inline;  
-  margin-right: 10px;  
+  margin-right: 40px;  
 }
 
 nav ul li a {
@@ -47,31 +46,29 @@ nav ul li a {
   text-decoration: none;
 }
 
-section {
-  margin: 15px;
-  padding: 10px;
-  background: #e8e8e8; 
-  border-radius: 5px; 
-}
-
-section h2 {
-  color: #333;  
-  margin-bottom: 10px; 
-}
-
-section p {
-  color: #666;  
-  line-height: 1.5; 
-}
-
 footer {
-  background: #333;
   color: #ffffff;
-  text-align: center;
-  padding: 10px;
+  font-size: 10px;
+  text-align: end;
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  font-size: 50px;
+  padding-top: 3em;
+}
+.bold {
+  font-weight: 900;
+}
+
+nav ul li:nth-child(1) a {
+  color: rgb(175, 171, 171);
 }
 
 @media screen and (max-width: 500px) {
